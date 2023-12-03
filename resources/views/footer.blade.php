@@ -1,3 +1,3 @@
 <footer>
-    <center>Hak Cipta oleh Faizal Johan</center>
+    <center>Hak Cipta oleh Yeremia Maydinata</center>
 </footer>
