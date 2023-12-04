@@ -1,18 +1,59 @@
 @extends('master')
-@section('title', 'Data Pegawai')
 @section('konten')
+    <h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
+    <h3>Data Pegawai</h3>
 
-<h2><a>Lihat Profil Pekerja</a><h2>
+    <a href="/pegawai"> Kembali</a>
 
-    <a href="/pegawai">Kembali</a>
+    <br />
+    <br />
+    @foreach ($pegawai as $p)
+        <form action="/pegawai/store" method="post">
+            {{ csrf_field() }}
 
-    <br/>
-    <br/>
-    <h3 allign="center">Data Pegawai</h3>
-    <table>
-        <tr>
-            <td>Nama</td>
-            <td><input type="hidden" name="id" value="{{ $p->pegawai_id }}"></td>
-        </tr>
-    </table>
+            <div class="row">
+                <div class="col-sm-4 border">
+                    {{-- gambar masuk sini --}}
+                </div>
+
+                <div class="col-sm-8">
+                    <div class = "form-group row">
+                        <label for = "nama" class = "col-sm-2 control-label">Nama</label>
+                        <div class = "col-sm-10">
+                            <input type = "text" readonly class = "form-control" id = "nama"
+                                value="{{ $p->pegawai_nama }}">
+                        </div>
+                    </div>
+
+                    <div class = "form-group row">
+                        <label for = "jabatan" class = "col-sm-2 control-label">Jabatan</label>
+                        <div class = "col-sm-10">
+                            <input type = "text" readonly class = "form-control" id = "jabatan"
+                                value="{{ $p->pegawai_jabatan }}">
+                        </div>
+                    </div>
+
+                    <div class = "form-group row">
+                        <label for = "umur" class = "col-sm-2 control-label">Umur</label>
+                        <div class = "col-sm-10">
+                            <input type = "text" readonly class = "form-control" id = "umur"
+                                value="{{ $p->pegawai_umur }}">
+                        </div>
+                    </div>
+
+                    <div class = "form-group row">
+                        <label for = "alamat" class = "col-sm-2 control-label">Alamat</label>
+                        <div class = "col-sm-10">
+                            <input type = "text" readonly class = "form-control" id = "alamat"
+                                value="{{ $p->pegawai_alamat }}">
+                        </div>
+                    </div>
+
+                    <div class = "col-sm-2 align-items-center mx-auto">
+                        <a href='/pegawai' class = "btn btn-primary btn-block">OK</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    @endforeach
 @endsection
