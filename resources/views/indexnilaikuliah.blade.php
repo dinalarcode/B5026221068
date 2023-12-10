@@ -5,14 +5,6 @@
 
 	<a href="/nilaikuliah/tambahnilaikuliah" class="btn btn-primary"> + Tambah Data</a>
 
-	<br/>
-    <p>Cari Data Pegawai :</p>
-	<form action="/nilaikuliah/cari" method="GET">
-		<input class="form-control" type="text" name="cari" placeholder="Cari NRP .." value="{{ old("cari", isset($cari) ? $cari : '') }}">
-		<input class="btn btn-primary" type="submit" value="CARI">
-	</form>
-	<br/>
-
 	<table class="table table-striped table-hover">
 		<tr>
 			<th>ID</th>

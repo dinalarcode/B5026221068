@@ -419,9 +419,10 @@
                 <a class="px-5 mx-3" href="http://127.0.0.1:8000/pertemuan-4" target="_blank">Pertemuan 4</a>
                 <a class="px-5 mx-3" href="http://127.0.0.1:8000/pertemuan-5-1" target="_blank">Pertemuan 5-1</a>
                 <a class="px-5 mx-3" href="http://127.0.0.1:8000/pertemuan-5-2" target="_blank">Pertemuan 5-2</a>
-                <a class="px-5 mx-3" href="http://127.0.0.1:8000/pertemuan-6" target="_blank">Pertemuan 6</a>
-              </div>
+                <a class="px-5 mx-3" href="http://127.0.0.1:8000/pertemuan-6" >Pertemuan 6</a>
 
+              </div>
+              <a class="px-5 mx-3" href="/pegawai" target="_blank">Data Pegawai</a>
             </div>
 
           </div>

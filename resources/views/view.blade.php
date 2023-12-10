@@ -20,32 +20,36 @@
                     <div class = "form-group row">
                         <label for = "nama" class = "col-sm-2 control-label">Nama</label>
                         <div class = "col-sm-10">
-                            <input type = "text" readonly class = "form-control" id = "nama"
-                                value="{{ $p->pegawai_nama }}">
+                            <output type = "text" id = "nama" name="name">
+                                :     {{ $p->pegawai_nama }}
+                            </output>
                         </div>
                     </div>
 
                     <div class = "form-group row">
                         <label for = "jabatan" class = "col-sm-2 control-label">Jabatan</label>
                         <div class = "col-sm-10">
-                            <input type = "text" readonly class = "form-control" id = "jabatan"
-                                value="{{ $p->pegawai_jabatan }}">
+                            <output type = "text" id = "jabatan" name="jabatan">
+                                :     {{ $p->pegawai_jabatan }}
+                            </output>
                         </div>
                     </div>
 
                     <div class = "form-group row">
                         <label for = "umur" class = "col-sm-2 control-label">Umur</label>
                         <div class = "col-sm-10">
-                            <input type = "text" readonly class = "form-control" id = "umur"
-                                value="{{ $p->pegawai_umur }}">
+                            <output type = "text" id = "umur" name="umur">
+                                :     {{ $p->pegawai_umur }}
+                            </output>
                         </div>
                     </div>
 
                     <div class = "form-group row">
                         <label for = "alamat" class = "col-sm-2 control-label">Alamat</label>
                         <div class = "col-sm-10">
-                            <input type = "text" readonly class = "form-control" id = "alamat"
-                                value="{{ $p->pegawai_alamat }}">
+                            <output type = "text" id = "alamat" name="alamat">
+                                :     {{ $p->pegawai_alamat }}
+                            </output>
                         </div>
                     </div>
 

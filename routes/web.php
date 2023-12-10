@@ -88,3 +88,14 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+Route::get('/bedak','App\Http\Controllers\BedakController@index');
+Route::get('/bedak/tambahstock','App\Http\Controllers\BedakController@tambahstock');
+Route::post('/bedak/store','App\Http\Controllers\BedakController@store');
+
+Route::get('/bedak/hapus/{id}','App\Http\Controllers\BedakController@hapus');
+Route::get('/bedak/cari','App\Http\Controllers\BedakController@cari');
+Route::get('/bedak/view/{id}','App\Http\Controllers\BedakController@view');
+Route::get('/bedak/edit/{id}','App\Http\Controllers\BedakController@edit');
+Route::post('/bedak/update','App\Http\Controllers\BedakController@update');
+Route::get('/bedak/cari','App\Http\Controllers\BedakController@cari');

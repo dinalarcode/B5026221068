@@ -19,24 +19,19 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="/pegawai">Data Pegawai</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/nilaikuliah">Data Nilai Kuliah</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="/keranjangbelanja">Data Belanja</a>
+      <a class="nav-link" href="/ " targer="_blank">Blog</a>
     </li>
 
     <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Dropdown link
+        Kumpulan Data
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
+        <a class="dropdown-item" href="/pegawai">Data Pegawai</a>
+        <a class="dropdown-item" href="/nilaikuliah">Data Nilai Kuliah</a>
+        <a class="dropdown-item" href="/keranjangbelanja">Daftar Belanja</a>
+        <a class="dropdown-item" href="/bedak">Data Bedak</a>
       </div>
     </li>
   </ul>
