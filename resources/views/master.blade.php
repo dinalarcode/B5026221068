@@ -14,15 +14,18 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
+  <a class="navbar-brand" href="#">Yeremia Maydinata - 5026221068</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+      <a class="nav-link" href="/pegawai">Data Pegawai</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="/nilaikuliah">Data Nilai Kuliah</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/keranjangbelanja">Data Belanja</a>
     </li>
 
     <!-- Dropdown -->
