@@ -12,11 +12,11 @@ class UnknownController extends Controller
 	{
         $chat = DB::table('chat')->get();
         $emojiMappings = [
-            ':))' => '1.png',
-            ':3' => '2.png',
-            ':P' => '3.png',
-            ':C' => '4.png',
-            ';)' => '5.png',];
+            ':))' => 'assets/img/1.png',
+            ':3' => 'assets/img/2.png',
+            ':P' => 'assets/img/3.png',
+            ':C' => 'assets/img/4.png',
+            ';)' => 'assets/img/5.png',];
 		return view('indexunknown',['chat' => $chat, 'emojiMappings' => $emojiMappings]);
 	}
 
@@ -24,11 +24,11 @@ class UnknownController extends Controller
     {
         $chat = DB::table('chat')->get();
         $emojiMappings = [
-            ':))' => 'public/Pelengkap AA/1.png',
-            ':3' => '2.png',
-            ':P' => '3.png',
-            ':C' => '4.png',
-            ';)' => '5.png',
+            ':))' => 'assets/img/1.png',
+            ':3' => 'assets/img/2.png',
+            ':P' => 'assets/img/3.png',
+            ':C' => 'assets/img/4.png',
+            ';)' => 'assets/img/5.png',
         ];
 
         foreach ($chat as $message) {
