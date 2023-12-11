@@ -29,9 +29,10 @@
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="/pegawai">Data Pegawai</a>
-        <a class="dropdown-item" href="/nilaikuliah">Data Nilai Kuliah</a>
-        <a class="dropdown-item" href="/keranjangbelanja">Daftar Belanja</a>
-        <a class="dropdown-item" href="/bedak">Data Bedak</a>
+        <a class="dropdown-item" href="/nilaikuliah">[P15] Data Nilai Kuliah</a>
+        <a class="dropdown-item" href="/keranjangbelanja">[P15] Daftar Belanja</a>
+        <a class="dropdown-item" href="/bedak">[Pra-EAS] Data Bedak</a>
+        <a class="dropdown-item" href="/unknown">[EAS] Data Unknown</a>
       </div>
     </li>
   </ul>

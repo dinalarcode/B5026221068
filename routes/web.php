@@ -99,3 +99,5 @@ Route::get('/bedak/view/{id}','App\Http\Controllers\BedakController@view');
 Route::get('/bedak/edit/{id}','App\Http\Controllers\BedakController@edit');
 Route::post('/bedak/update','App\Http\Controllers\BedakController@update');
 Route::get('/bedak/cari','App\Http\Controllers\BedakController@cari');
+
+Route::get('/unknown','App\Http\Controllers\UnknownController@index');
